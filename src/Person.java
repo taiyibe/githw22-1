@@ -35,6 +35,12 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" + "name='" + name + "'" + ", family='" + family + "'" + ", age=" + age + ", sex=" + sex + ", education=" + education + "}";
+        return "Person{" +
+                "name='" + name + "'" +
+                ", family='" + family + "'" +
+                ", age=" + age +
+                ", sex=" + sex +
+                ", education=" + education +
+                "}";
     }
 }
